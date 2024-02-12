@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670322477489",
+    "project_id": "marvyana-mobilite",
+    "storage_bucket": "marvyana-mobilite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670322477489:android:5d3b74f9d2df3382509590",
+        "android_client_info": {
+          "package_name": "com.example.marvyanamobilite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670322477489-0d3dfgke5putohlkv9gv8hn9cqmd15es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCp0p-CDcMTYiHXCZJ10pK3NbM6byqAvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670322477489-0d3dfgke5putohlkv9gv8hn9cqmd15es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

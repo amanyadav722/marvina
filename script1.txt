@@ -1,0 +1,113 @@
+App.js::::
+
+import React from 'react';
+import './App.css';
+import nav from './MyComponents/nav';
+import about from './MyComponents/about';
+import shop from './MyComponents/shop';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+function App(){
+    return (
+      <Router>
+      <div className="App">
+          <h1>MyReactApp</h1>
+          <nav />
+          <switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/MyComponents/about" component={about}/>
+          <Route path="/MyComponents/shop" component={shop}/>
+          </switch>
+      </div>
+      </Router>
+    ); 
+}
+
+const Home = () => (
+  <div>
+    <h1>Home Page</h1>
+  </div>
+)
+
+export default App;
+
+
+
+About.js::::::
+import React from 'react';
+import '../App.css';
+
+function about(){
+    return(
+        <div className="about">
+            <h1>About page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorum voluptas praesentium delectus iste pariatur repellendus possimus repellat dicta maiores voluptatem earum reprehenderit sed adipisci minus, neque non beatae quis ea, deserunt numquam qui laudantium distinctio ipsa! Laborum culpa aliquid quod dicta eveniet, cupiditate, similique ducimus non voluptate, voluptatem doloribus!</p>
+        </div>
+    )
+}
+
+export default about;
+
+
+
+
+nav.js:::::
+
+import React from 'react';
+import '../App.css';
+
+function nav(){
+    return(
+        <nav>
+            <h3>Logo</h3>
+            <ul>
+                <li>About</li>
+                <li>Shop</li>
+            </ul>
+        </nav>
+    )
+}
+
+export default nav;
+
+
+
+shop.js:::::
+
+import React from 'react';
+import '../App.css';
+
+function shop(){
+    return(
+        <div className="shop">
+            <h1>shop page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorum voluptas praesentium delectus iste pariatur repellendus possimus repellat dicta maiores voluptatem earum reprehenderit sed adipisci minus, neque non beatae quis ea, deserunt numquam qui laudantium distinctio ipsa! Laborum culpa aliquid quod dicta eveniet, cupiditate, similique ducimus non voluptate, voluptatem doloribus!</p>
+        </div>
+    )
+}
+
+export default shop;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\Aman\AppData\Roaming\Python\Python39\Scripts
+
+
+C:\Users\Aman\AppData\Roaming\Python\Python39

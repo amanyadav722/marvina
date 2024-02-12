@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=E4:18:4F:06:62:3D:CF:7C:46:B2:9B:7C:C8:C6:EB:5E:EC:9C:02:1B%3Bcom.example.marvyana_mobilite
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.marvyana_mobilite
+
+    SHA-1 certificate fingerprint:
+    E4:18:4F:06:62:3D:CF:7C:46:B2:9B:7C:C8:C6:EB:5E:EC:9C:02:1B
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCP-509uevO-qWJ3IfLt7-0rYZVbPKgw-0</string>
+</resources>
